@@ -29,7 +29,7 @@ class App extends Component{
       onChange = {e=> this.setState({searchField: e.target.value})}>
 
       </input>
-      <CardList monsters={this.state.monsters}>
+      <CardList monsters={filteredMonsters}>
       </CardList>
       </div>
     );
